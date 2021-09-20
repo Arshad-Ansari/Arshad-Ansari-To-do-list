@@ -1,0 +1,56 @@
+.container-fluid{
+    background-color:yellow
+}
+.red{
+    background-color:red;
+}
+.green{
+    background-color:greenyellow ;
+}
+.blue{
+    background-color: blue;
+}
+.aqua{
+    background-color: aqua;
+}
+.orange{
+    background-color:orange;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color:red;
+    }
+textarea{
+    margin-top: 5px;
+}
+.button{
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.button1{
+    width:200px;
+    
+}
+
+
+
+
+table{
+    width:100%;
+}
+table,th,td{
+    border:2px solid red;
+    border-collapse: collapse;
+
+}
+td{
+    overflow: scroll;
+    max-width: 300px;
+}

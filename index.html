@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col yellow">
+                    <h1>To Do List</h1>
+                </div>
+            </div>
+          
+            <div class="row align-content-center">
+                <div class="col-5 pink "> <h4 class="mt-3"><b>Enter your task :</b> </h4></div>
+                <div class="col-7 pink"><input type="text" class="form-control mt-2" id="title" placeholder="Enter task title">
+                    <!-- <textarea name="" id="title" cols="80" rows="1"></textarea> -->
+                </div>
+            </div>
+            <div class="row align-content-center">
+                <div class="col-5 pink"> <h4 class="mt-4"><b>Enter your Description :</b> </h4></div>
+                <div class="col-7 pink"><input type="text" class="form-control mb-2 mt-sm-4" id="description" placeholder="Enter task description">
+                    <!-- <textarea name="" id="description" cols="80" rows="1"></textarea> -->
+                </div>
+            </div>
+            <div class="container">
+            <div class="row justify-content-center mt-2">
+                <div class="col-5"><button type="button" id="add" class="btn btn-primary btn-lg button ">Add Task</button></div>
+            
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-5"><button type="button" onclick="clearstr()" id="clearstr" class="btn btn-primary btn-lg button1 ">Reset Task</button></div>
+            
+            </div>
+        </div>
+
+
+
+       
+            <div class="container">
+            <h1>your tasks are here</h1>
+            <div class="row mt-2">
+            <div class="col">
+            <!-- <textarea name="" id="s1" class=" btn-outline-info" cols="90" rows="1" placeholder="search by title"></textarea> -->
+            <input type="text" class="form-control" id="s1" placeholder="Search by title">
+            </div>
+          
+            
+            </div>
+
+            </div>
+        
+       
+
+       
+                <div class="container mt-2">
+                    <div class="row pink">
+                        <div class="col-12">
+                            <table>
+                                <thead class="orange">
+                                    <div class="row"><tr class="blue"></tr></div>
+                                    <div class="col"><th>sr.no</th></div>
+                                    <div class="col-4"><th>title</th></div>
+                                    <div class="col-6"><th>description</th></div>
+                                    <div class="col"><th>Action</th></div>
+                                        
+                                      
+                                    
+                                       
+                                  </tr>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="display">
+                                        <tr>
+                                        <td>1</td>
+                                        <td>a</td>
+                                        <td>b</td>
+                                        <td>c</td>
+                                        
+                                        </tr>
+                                    </tbody>
+                        
+                                </table>
+                                
+
+                        </div>
+                    </div>
+                    
+                </div>
+    </div>
+              
+</div>
+        <script src="script.js"></script>
+</body>
+</html>
